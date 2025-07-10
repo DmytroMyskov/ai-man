@@ -1,0 +1,31 @@
+/* :root {
+  --main-family: 'Inter', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-family);
+  background-color: #1A1A1A;
+  color: #333;
+}
+
+h1 {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 120px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  background: linear-gradient(91deg, #fff 0%, rgba(255, 255, 255, 0.3) 49.48%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  span {
+    background: linear-gradient(308deg, #a7f306 0%, #f3cd06 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+} */
