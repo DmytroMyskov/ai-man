@@ -1,4 +1,4 @@
-/* :root {
+:root {
   --main-family: 'Inter', sans-serif;
   --second-family: 'Raleway', sans-serif;
 }
@@ -28,4 +28,4 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-} */
+}
