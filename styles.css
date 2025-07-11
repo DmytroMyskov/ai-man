@@ -1,14 +1,32 @@
 :root {
   --main-family: 'Inter', sans-serif;
   --second-family: 'Raleway', sans-serif;
+  --third-family: 'Poppins', sans-serif;
+  --primary-color: #1A1A1A;
+  --secondary-color: #FFFFFF;
+  --accent-color: linear-gradient(308deg, #a7f306 0%, #f3cd06 100%);
+}
+
+.container {
+  max-width: 1340px;
+  margin: auto;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: var(--main-family);
-  background-color: #1A1A1A;
-  color: #333;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 h1 {
@@ -24,7 +42,7 @@ h1 {
 }
 
 span {
-  background: linear-gradient(308deg, #a7f306 0%, #f3cd06 100%);
+  background: var(--accent-color);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
