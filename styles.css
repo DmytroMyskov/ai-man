@@ -21,11 +21,11 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
 
-  span {
-    background: linear-gradient(308deg, #a7f306 0%, #f3cd06 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+span {
+  background: linear-gradient(308deg, #a7f306 0%, #f3cd06 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
