@@ -70,7 +70,8 @@ header {
 
     &:hover {
       border-bottom: 1px solid var(--third-color);
-      color: var(--fourth-color)
+      color: var(--fourth-color);
+      transform: scale(1.05);
     }
   }
 
@@ -98,5 +99,42 @@ header {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  .promo-strip-container {
+    width: 100vw;
+    background: var(--accent-color);
+    padding: 24px 0;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    margin-left: calc(662px - 50vw);
+
+    .promo-strip {
+      display: flex;
+      white-space: nowrap;
+    }
+
+    .promo-item {
+      display: inline-flex;
+      align-items: center;
+      padding: 0 30px;
+      flex-shrink: 0;
+      font-family: var(--second-family);
+      font-size: 36px;
+      line-height: 200%;
+      letter-spacing: 0.04em;
+      background: linear-gradient(270deg, #1a1a1a 0%, #000 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .icon-percent {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 24px;
+    }
   }
 }
